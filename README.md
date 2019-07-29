@@ -26,19 +26,12 @@
                  MOVE 'fisio_log' TO '/var/opt/mssql/data/fisio_log.ldf' <br>
                  GO <br>
         
-   >*
+   >
            Ao fim destes passos você já está apto a se conectar junto ao banco e listar suas informações,
         use este comando abaixo para saber quais databases você possui:
         SELECT Name FROM sys.Databases
         GO
     .
-
-
-
-
-
-
-
 
 
 **Uteis**<br>
