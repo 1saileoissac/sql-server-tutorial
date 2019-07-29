@@ -1,4 +1,4 @@
-# sql-server-tutorial
+# Sql Server Tutorial
 
 
 1- Instale o sql-server seguindo este link -> https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-2017<br>
