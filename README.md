@@ -34,6 +34,12 @@
     use este comando abaixo para saber quais databases você possui:
     SELECT Name FROM sys.Databases
     GO </p>
+    
+3- Agora vamos conectar o banco restaurado ao Intellij
+
+[Imgur](https://i.imgur.com/R7CeVF3.png)
+    
+    
 
 
 **Uteis**<br>
