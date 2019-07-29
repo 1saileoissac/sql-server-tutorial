@@ -59,6 +59,6 @@ Para listar todas tabelas existentes em sua base utilize o comando<br> -> ```SEL
  ->```sudo systemctl restart mssql-server```<br>
  
  
- **Documentação**
+ **Fontes: ** <br>
 https://docs.microsoft.com/pt-br/sql/linux/sql-server-linux-migrate-restore-database?view=sql-server-2017 <br>
 http://www.alexandremalmeida.com.br/2018/01/08/rapidinha-como-listar-todas-as-tabelas-do-meu-banco-de-dados/
