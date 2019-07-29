@@ -34,4 +34,7 @@
 
 
 **Uteis**<br>
-Para listar todas tabelas existentes em sua base utilize o comando -> ```sudo -u mssql /opt/mssql/bin/sqlservr -m SQLCMD```
+Para listar todas tabelas existentes em sua base utilize o comando<br> -> ```sudo -u mssql /opt/mssql/bin/sqlservr -m SQLCMD```
+Para iniciar, reiniciar ou parar o servidor SQL-SERVER use estes comandos<br> -> ```sudo systemctl stop mssql-server
+sudo systemctl start mssql-server<br>
+sudo systemctl restart mssql-server```<br>
