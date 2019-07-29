@@ -37,7 +37,7 @@
     
 3- Agora vamos conectar o banco restaurado ao Intellij
 
-[img]https://i.imgur.com/R7CeVF3.png[/img]
+![Data Source](https://i.imgur.com/R7CeVF3g.png)
     
     
 
