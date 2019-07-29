@@ -27,10 +27,10 @@
                  GO <br>
         
   
->Ao fim destes passos você já está apto a se conectar junto ao banco e listar suas informações,
+<p>Ao fim destes passos você já está apto a se conectar junto ao banco e listar suas informações,
     use este comando abaixo para saber quais databases você possui:
     SELECT Name FROM sys.Databases
-    GO.
+    GO </p>
 
 
 **Uteis**<br>
