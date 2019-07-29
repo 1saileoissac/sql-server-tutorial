@@ -35,11 +35,14 @@
     SELECT Name FROM sys.Databases
     GO </p>
     
-3- Agora vamos conectar o banco restaurado ao Intellij
-   Crie um novo Data Source sql-server, como a imagem a baixo
+3- Agora vamos conectar o banco restaurado ao Intellij<br>
+   Crie um novo Data Source sql-server, como a imagem a baixo<br>
 
 ![Data Source](https://i.imgur.com/R7CeVF3g.png)
-    
+
+   No Driver escolha a ultima opção do SQL-Server (jTds), conforme a imagem dita<br> 
+   
+![Data Source](https://i.imgur.com/bnq1mp9g.png)
     
 
 
