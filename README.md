@@ -36,6 +36,7 @@
     GO </p>
     
 3- Agora vamos conectar o banco restaurado ao Intellij
+   Crie um novo Data Source sql-server, como a imagem a baixo
 
 ![Data Source](https://i.imgur.com/R7CeVF3g.png)
     
