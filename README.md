@@ -57,6 +57,7 @@ Para listar todas tabelas existentes em sua base utilize o comando<br> -> ```SEL
 <br>Para iniciar, reiniciar ou parar o servidor SQL-SERVER use estes comandos<br> -> ```sudo systemctl stop mssql-server```<br>
  ->```sudo systemctl start mssql-server```<br>
  ->```sudo systemctl restart mssql-server```<br>
+ ->```sudo -u mssql /opt/mssql/bin/sqlservr -m SQLCMD``` <br>
  
  
  **Fontes:** <br>
