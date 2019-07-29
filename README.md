@@ -43,6 +43,10 @@
    No Driver escolha a ultima opção do SQL-Server (jTds), conforme a imagem dita<br> 
    
 ![Data Source](https://i.imgur.com/bnq1mp9g.png)
+
+   Na opção url escolha 'url-only', para que não seja necessário informar coisas desnecessárias e informe seu User no sql-server juntamento sua senha definida na instalação, para a url de conexão até o banco faça igual a imagem a baixo.
+   
+![Data Source](https://i.imgur.com/jEdHMgjg.png)
     
 
 
