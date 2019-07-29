@@ -9,12 +9,24 @@
         2.2.1- RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/YourDB.bak'<br>
         2.2.2- GO<br>
         
+        exemplo: RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/BD/fisio/fisio_backup_2019_07_26_081001_3947299.bak
+        tem como retorno os arquivos <br> -> fisio (Nome Lógico) e fisio.mdf (Nome físico)
+        
    2.3- Execute estes comandos para iniciar a restauração dos arquivo obtidos com o comando 2.2.1<br>
         2.3.1- RESTORE DATABASE YourDB<br>
         2.3.2- FROM DISK = '/var/opt/mssql/backup/YourDB.bak'<br>
         2.3.3- WITH MOVE 'YourDB' TO '/var/opt/mssql/data/YourDB.mdf',<br>
         2.3.4- MOVE 'YourDB_Log' TO '/var/opt/mssql/data/YourDB_Log.ldf'<br>
         2.3.5- GO<br>
+        
+        exemplo: RESTORE DATABASE fisio <br>
+                 FROM DISK = '/var/opt/mssql/backup/BD/fisio/fisio_backup_2019_07_26_081001_3947299.bak' <br>
+                 WITH MOVE 'YourDB' TO '/var/opt/mssql/data/fisio.mdf', <br>
+                 MOVE 'fisio_readonly' TO '/var/opt/mssql/data/fisio_readonly.ndf', <br>
+                 MOVE 'fisio_log' TO '/var/opt/mssql/data/fisio_log.ldf' <br>
+                 GO <br>
+        
+        
       
         Ao fim destes passos você já está apto a se conectar junto ao banco e listar suas informações
         Use este comando abaixo para saber quais databases você possui:
