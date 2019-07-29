@@ -38,6 +38,6 @@
 
 **Uteis**<br>
 Para listar todas tabelas existentes em sua base utilize o comando<br> -> ```SELECT table_catalog, table_schema, table_name, table_type FROM information_schema.tables```
-<br>Para iniciar, reiniciar ou parar o servidor SQL-SERVER use estes comandos<br> -> ```sudo systemctl stop mssql-server```
+<br>Para iniciar, reiniciar ou parar o servidor SQL-SERVER use estes comandos<br> -> ```sudo systemctl stop mssql-server```<br>
  ->```sudo systemctl start mssql-server```<br>
  ->```sudo systemctl restart mssql-server```<br>
