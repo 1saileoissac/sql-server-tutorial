@@ -47,6 +47,8 @@
    Na opção url escolha 'url-only', para que não seja necessário informar coisas desnecessárias e informe seu User no sql-server juntamento sua senha definida na instalação, para a url de conexão até o banco faça igual a imagem a baixo.
    
 ![Data Source](https://i.imgur.com/jEdHMgjg.png)
+
+   Abra o console da base criada no Intellij e execute comandos sql, para garantir a restauração.
     
 
 
