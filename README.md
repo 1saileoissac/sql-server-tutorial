@@ -12,8 +12,8 @@
         exemplo: RESTORE FILELISTONLY FROM DISK = '/var/opt/mssql/backup/BD/fisio/fisio_backup_2019_07_26_081001_3947299.bak
         tem como retorno os arquivos 
         -> fisio (Nome Lógico) e fisio.mdf (Nome físico)
-        -> fisio_readonly (Nome Lógico) e fisio_readonly.mdf (Nome físico)
-        -> fisio_log (Nome Lógico) e fisio_log.mdf (Nome físico)
+        -> fisio_readonly (Nome Lógico) e fisio_readonly.ndf (Nome físico)
+        -> fisio_log (Nome Lógico) e fisio_log.ldf (Nome físico)
         
    Execute estes comandos para iniciar a restauração dos arquivo obtidos com o comando 2.2.1<br>
        RESTORE DATABASE YourDB<br>
